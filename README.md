@@ -1,4 +1,16 @@
-# 💧 Smart Water Monitoring & Leak Detection System
+🔗 Relationships Overview
+Collection	References	Notes
+Readings	sensorId → Sensors._id	Time-series data
+Leaks	sensorId → Sensors._id, technicianId → Technicians._id	Leak resolution
+Technicians	assignedLeaks → Leaks._id	Field assignments
+SponsorReports	usageTrends → UsageAnalytics._id	Aggregated summaries
+Users	Role-based access	JWT-secured
+🧠 Aggregation Pipeline Ideas
+Leak Detection: $group by sensorId, $avg pressure, $stdDevPop flowRate → flag anomalies
+
+Usage Trends: $match by zone/date → $group by hour → $sum flowRate
+
+Technician Performance: $lookup leaks → $group by technician → resolution rate# 💧 Smart Water Monitoring & Leak Detection System
 
 A modular, real-time dashboard for tracking water flow, detecting leaks, and managing technician response — designed for urban utilities, smart cities, and sponsor-facing analytics.
 
@@ -56,5 +68,6 @@ HASSAN MOHAMMED SAID – Lead Developer & Strategist
 [Add collaborators or sponsors here]
 
 📄 License
+
 
 MIT License — free to use, modify, and scale.
