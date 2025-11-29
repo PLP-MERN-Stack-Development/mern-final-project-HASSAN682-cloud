@@ -13,7 +13,7 @@ Usage Trends: $match by zone/date → $group by hour → $sum flowRate
 Technician Performance: $lookup leaks → $group by technician → resolution rate# 💧 Smart Water Monitoring & Leak Detection System
 
 A modular, real-time dashboard for tracking water flow, detecting leaks, and managing technician response — designed for urban utilities, smart cities, and sponsor-facing analytics.
-Pitch deck: https://www.canva.com/design/DAG3K-uefLo/s5bin42TpIT4hqnAMCS78A/edit?utm_content=DAG3K-uefLo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Pitch deck: https://www.canva.com/design/DAG3K-uefLo/s5bin42TpIT4hqnAMCS78A/edit?utm_content=DAG3K-uefLo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton                                             q  deployement guide:https://chatgpt.com/canvas/shared/692b09fa58708191a2ce90d4372ba215
 ## 🚀 Features
 
 - 🔍 **Leak Detection**: Real-time alerts based on flow anomalies and pressure drops
@@ -69,5 +69,6 @@ HASSAN MOHAMMED SAID – Lead Developer & Strategist
 
 
 MIT License — free to use, modify, and scale.
+
 
 
