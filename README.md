@@ -65,9 +65,8 @@ This system reduces water loss, improves technician response time, and provides 
 
 HASSAN MOHAMMED SAID – Lead Developer & Strategist
 
-[Add collaborators or sponsors here]
-
 📄 License
 
 
 MIT License — free to use, modify, and scale.
+
